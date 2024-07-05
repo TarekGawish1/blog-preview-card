@@ -83,11 +83,13 @@ body{
     color: var(--blackColor);
     font-size: 24px;
     font-weight: 800;
+    transition: .5s;
 }
 
 .content > h1:hover{
     color:var(--primaryColor);
-    cursor: pointer
+    cursor: pointer;
+    transition: .5s;
 }
 
 .content > p:nth-of-type(2) {
