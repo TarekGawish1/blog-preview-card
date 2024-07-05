@@ -83,6 +83,10 @@ body{
     font-weight: 800;
 }
 
+.content > h1:hover{
+    color:var(--primaryColor)
+}
+
 .content > p:nth-of-type(2) {
     color: var(--grayColor);
     font-size: 16px;
